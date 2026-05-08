@@ -7,7 +7,7 @@ import abdulKorimHeroImage from "@/assist/images/abdulKorim.jpg";
 const Hero = () => {
   return (
     <div>
-      <section className="min-h-screen flex items-center bg-[#0B0F19] text-white px-6 pt-20 mt-10">
+      <section className="md:min-h-screen flex items-center bg-[#0B0F19] text-white px-6 pt-20 mt-10">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-10 items-center ">
           <div className="order-2 md:order-1">
             <p className="text-indigo-400 text-sm mb-3 tracking-wider">

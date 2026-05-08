@@ -1,5 +1,6 @@
 import About from "@/components/clientUiComponent/About";
 import Hero from "@/components/clientUiComponent/Hero";
+import HomeProjects from "@/components/clientUiComponent/HomeProject";
 import Navbar from "@/components/clientUiComponent/Navbar";
 import Skills from "@/components/clientUiComponent/Skills";
 import Image from "next/image";
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero/>
     <About/>
     <Skills/>
+    <HomeProjects/>
    </div>
   );
 }

@@ -1,4 +1,4 @@
-import { FiCode, FiCpu, FiGlobe } from "react-icons/fi";
+  import { FiCode, FiCpu, FiGlobe } from "react-icons/fi";
 import aboutImage from "@/assist/images/about.png";
 import Image from "next/image";
 

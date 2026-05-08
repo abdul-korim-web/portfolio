@@ -1,6 +1,7 @@
 import About from "@/components/clientUiComponent/About";
 import Hero from "@/components/clientUiComponent/Hero";
 import Navbar from "@/components/clientUiComponent/Navbar";
+import Skills from "@/components/clientUiComponent/Skills";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
    <div>
     <Hero/>
     <About/>
+    <Skills/>
    </div>
   );
 }

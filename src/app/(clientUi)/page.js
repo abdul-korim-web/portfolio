@@ -1,4 +1,5 @@
 import About from "@/components/clientUiComponent/About";
+import Contact from "@/components/clientUiComponent/Contact";
 import Experience from "@/components/clientUiComponent/Experience";
 import Hero from "@/components/clientUiComponent/Hero";
 import HomeProjects from "@/components/clientUiComponent/HomeProject";
@@ -14,6 +15,7 @@ export default function Home() {
     <Skills/>
     <HomeProjects/>
     <Experience/>
+    <Contact/>
    </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 const active = false
   const menu = [
-    { id: "home", label: "Home", icon: <FiHome /> },
+    { id: "/", label: "Home", icon: <FiHome /> },
     { id: "about", label: "About", icon: <FiUser /> },
     { id: "skills", label: "Skills", icon: <FiCode /> },
     { id: "projects", label: "Projects", icon: <FiBriefcase /> },

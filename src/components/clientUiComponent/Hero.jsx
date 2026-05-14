@@ -28,13 +28,13 @@ const Hero = () => {
               smooth UX is my priority.
             </p>
             <div className="mt-7 flex flex-wrap gap-4">
-              <Link
-                href="/projects"
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 font-medium flex items-center gap-2 hover:scale-105 transition"
-              >
-                View Projects <FiArrowRight />
-              </Link>
-
+              
+<a
+              href="#"
+              className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 transition inline-block"
+            >
+              View Resume
+            </a>
               <Link
                 href="contact"
                 className="px-6 py-3 rounded-xl border border-white/10 text-gray-300 hover:text-white hover:bg-white/10 transition"

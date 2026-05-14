@@ -1,6 +1,8 @@
-  import { FiCode, FiCpu, FiGlobe } from "react-icons/fi";
+  import { FiArrowRight, FiCode, FiCpu, FiGlobe } from "react-icons/fi";
 import aboutImage from "@/assist/images/about.png";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function About() {
   return (
@@ -52,12 +54,12 @@ export default function About() {
             </div>
           </div>
           <div className="mt-10">
-            <a
-              href="#"
-              className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 transition inline-block"
-            >
-              View Resume
-            </a>
+            <Link
+                href="/projects"
+                className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 font-medium flex items-center gap-2 hover:scale-105 transition w-[170px]"
+              >
+                View Projects <FiArrowRight />
+              </Link>
           </div>
         </div>
       </div>

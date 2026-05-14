@@ -1,3 +1,4 @@
+import Footer from "@/components/clientUiComponent/Footer";
 import Navbar from "@/components/clientUiComponent/Navbar";
 import React from "react";
 
@@ -7,6 +8,7 @@ const Layout = ({ children }) => {
       <Navbar />
    
       {children}
+      <Footer/>
     </div>
   );
 };

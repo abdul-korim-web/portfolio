@@ -1,14 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { FiMenu, FiX, FiHome, FiUser, FiCode, FiBriefcase, FiMail } from "react-icons/fi";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 const active = false
+const pathName = usePathname()
+console.log('pathName', pathName)
   const menu = [
-    { id: "/", label: "Home", icon: <FiHome /> },
+    { id: "", label: "Home", icon: <FiHome /> },
     { id: "about", label: "About", icon: <FiUser /> },
     { id: "skills", label: "Skills", icon: <FiCode /> },
     { id: "projects", label: "Projects", icon: <FiBriefcase /> },
@@ -33,7 +36,7 @@ const active = false
                 key={item.id}
                 href={`/${item.id}`}
                 className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm transition-all ${
-                  active === item.id
+                  pathName == `/${item.id}`
                     ? "bg-indigo-600 text-white shadow-lg shadow-indigo-500/20"
                     : "text-gray-400 hover:text-white hover:bg-white/10"
                 }`}
@@ -41,6 +44,7 @@ const active = false
                 {item.icon}
                 {item.label}
               </Link>
+      
             ))}
           </div>
 
@@ -66,15 +70,15 @@ const active = false
       </nav>
 
       {open && (
-        <div className="fixed top-16 w-full bg-[#0B0F19]/95 backdrop-blur-xl border-b border-white/10 md:hidden">
-          <div className="flex flex-col px-6 py-4 gap-2">
+        <div className="fixed top-16 w-full bg-[#0B0F19]/95 backdrop-blur-xl border-b border-white/10 md:hidden z-10">
+          <div className="flex flex-col px-6 py-4 gap-2 ">
             {menu.map((item) => (
               <Link
                 key={item.id}
                 href={`${item.id}`}
                 onClick={() => setOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${
-                  active === item.id
+                   pathName == `/${item.id}`
                     ? "bg-indigo-600 text-white"
                     : "text-gray-400 hover:text-white hover:bg-white/10"
                 }`}

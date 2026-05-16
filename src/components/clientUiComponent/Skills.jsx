@@ -12,7 +12,6 @@ import {
   SiGithub,
   SiBetterauth,
 } from "react-icons/si";
-import { FaShieldAlt } from "react-icons/fa";
 
 const skillData = [
   {
@@ -20,13 +19,13 @@ const skillData = [
     skills: [
       {
         name: "Next.js",
-        icon: <SiNextdotjs />,
+        icon: <SiNextdotjs  />,
         value: 90,
         color: "from-white to-gray-400",
       },
       {
         name: "React",
-        icon: <SiReact />,
+        icon: <SiReact  />,
         value: 92,
         color: "from-cyan-400 to-blue-500",
       },
@@ -55,7 +54,7 @@ const skillData = [
       },
       {
         name: "MongoDB / Mongoose",
-        icon: <SiMongodb />,
+        icon: <SiMongodb  />,
         value: 88,
         color: "from-green-500 to-green-700",
       },
@@ -66,7 +65,7 @@ const skillData = [
     skills: [
       {
         name: "Git",
-        icon: <SiGit />,
+        icon: <SiGit  />,
         value: 85,
         color: "from-orange-400 to-red-500",
       },
@@ -78,10 +77,11 @@ const skillData = [
       },
       {
         name: "Auth (Better Auth)",
-        icon: <SiBetterauth  />,
+        icon: <SiBetterauth   />,
         value: 85,
         color: "from-purple-500 to-pink-600",
       },
+      
     ],
   },
 ];

@@ -8,7 +8,8 @@ try {
     }
 
     const singleProject = await res.json();
-    return singleProject.product;
+    console.log(singleProject.project);
+    return singleProject.project;
   } catch (error) {
     console.error("Error fetching projects:", error);
     return {};

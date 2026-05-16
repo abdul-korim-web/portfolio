@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { LuExternalLink } from "react-icons/lu";
 import ProjectCard from "./projectCard";
-import getAllProject from "@/lib/data/getAllProject";
+import getTopProject from '@/lib/data/getTopProject';
+
 
 export default async function HomeProjects() {
-  const data = await getAllProject();
-
-  const projects = data?.allProjects || [];
+  const data = await getTopProject();
+console.log('data', data)
+  const projects = data?.topProject || [];
 
   return (
     <section id="projects" className="md:py-24 bg-[#0B0F19] text-white">

@@ -70,7 +70,7 @@ console.log('pathName', pathName)
       </nav>
 
       {open && (
-        <div className="fixed top-16 w-full bg-[#0B0F19]/95 backdrop-blur-xl border-b border-white/10 md:hidden z-10">
+        <div className="fixed top-16 w-full bg-[#0B0F19]/95 backdrop-blur-xl border-b border-white/10 md:hidden z-100000">
           <div className="flex flex-col px-6 py-4 gap-2 ">
             {menu.map((item) => (
               <Link

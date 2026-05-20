@@ -97,10 +97,10 @@ export default function SkillsSection() {
     <section id="skills" className="py-24 bg-[#0B0F19] text-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold animate__animated animate__rubberBand">
             My <span className="text-indigo-500">Skills</span>
           </h2>
-          <p className="text-gray-400 mt-2">
+          <p className="text-gray-400 mt-2 animate__animated animate__backInUp">
             Categorized technologies I use to build modern applications
           </p>
         </div>
@@ -108,11 +108,11 @@ export default function SkillsSection() {
         <div className="space-y-12">
           {skillData.map((category, index) => (
             <div key={index}>
-              <h3 className="text-xl font-semibold mb-6 text-gray-200 border-l-4 border-indigo-500 pl-3">
+              <h3 className="text-xl font-semibold mb-6 text-gray-200 border-l-4 border-indigo-500 pl-3 animate__animated animate__backInLeft">
                 {category.title}
               </h3>
 
-              <div className="grid md:grid-cols-2 gap-5">
+              <div className="grid md:grid-cols-2 gap-5 animate__animated animate__backInUp ">
                 {category.skills.map((skill, index) => (
                   <div
                     key={index}

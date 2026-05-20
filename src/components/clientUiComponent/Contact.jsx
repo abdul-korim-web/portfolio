@@ -22,22 +22,22 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <p className="text-indigo-400 font-medium mb-3">
+          <p className="text-indigo-400 font-medium mb-3 animate__animated animate__rubberBand">
             CONTACT ME
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-5">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-5 animate__animated animate__backInLeft">
             Let’s Work Together
           </h2>
 
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-400 max-w-2xl mx-auto animate__animated animate__backInRight">
             Have a project idea or want to collaborate? Feel free to
             contact me anytime.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-10">
-          <div className="space-y-6">
+        <div className="grid lg:grid-cols-2 gap-10 ">
+          <div className="space-y-6 animate__animated animate__tada">
             <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-8">
               <h3 className="text-2xl font-bold text-white mb-8">
                 Contact Information
@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
 
 
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-5 ">
                   <div className="w-14 h-14 rounded-2xl bg-green-500/10 flex items-center justify-center text-green-400 text-xl">
                     <FaPhoneAlt />
                   </div>
@@ -116,7 +116,7 @@ const Contact = () => {
           </div>
 
 
-          <form className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-8 space-y-6">
+          <form className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-8 space-y-6 animate__animated animate__tada">
             <div>
               <label className="text-sm text-gray-300 mb-2 block">
                 Your Name

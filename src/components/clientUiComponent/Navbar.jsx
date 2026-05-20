@@ -25,12 +25,12 @@ console.log('pathName', pathName)
       <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-[#0B0F19]/60 border-b  border-white/10">
         <div className="flex items-center justify-between px-6 py-5 h-16 max-w-7xl mx-auto">
           
-          <Link href="/home" className="text-xl font-bold tracking-tight">
+          <Link href="/home" className="text-xl font-bold tracking-tight animate__animated animate__backInLeft">
             <span className="text-white">Abdul</span>
             <span className="text-indigo-500">.dev</span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-2 bg-white/5 p-1 rounded-xl border border-white/10">
+          <div className="hidden md:flex items-center gap-2 bg-white/5 p-1 rounded-xl border border-white/10 animate__animated animate__backInDown">
             {menu.map((item) => (
               <Link
                 key={item.id}
@@ -48,7 +48,7 @@ console.log('pathName', pathName)
             ))}
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 animate__animated animate__backInRight">
             
 
             <Link

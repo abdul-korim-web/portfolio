@@ -8,7 +8,7 @@ export default async function ProjectDetailsPage({ params }) {
   const {id} = await params
   const project = await getSingleProject(id);
 
-  console.log(project);
+  // console.log(project);
 
   if (!project) {
     return (
@@ -23,7 +23,7 @@ export default async function ProjectDetailsPage({ params }) {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-          <div className="relative aspect-video rounded-3xl overflow-hidden border border-white/10">
+          <div className="relative aspect-video rounded-3xl overflow-hidden border border-white/10  animate__animated animate__backInLeft">
             <Image
               src={project?.image}
               alt={project?.title}
@@ -32,7 +32,7 @@ export default async function ProjectDetailsPage({ params }) {
             />
           </div>
 
-          <div>
+          <div className="animate__animated animate__backInRight">
             <span className="px-4 py-2 rounded-full bg-indigo-500/10 text-indigo-400 text-sm">
               {project.category}
             </span>
@@ -66,7 +66,7 @@ export default async function ProjectDetailsPage({ params }) {
         </div>
 
         {/* TECH STACK */}
-        <div className="mt-24">
+        <div className="mt-24 animate__animated animate__backInUp">
           <h2 className="text-3xl font-bold mb-10">
             Main Technology Stack
           </h2>

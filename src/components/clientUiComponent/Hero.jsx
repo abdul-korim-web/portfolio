@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <section className="md:min-h-screen flex items-center bg-[#0B0F19] text-white px-6 pt-20 mt-10">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-10 items-center ">
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 animate__animated animate__backInLeft">
             <p className="text-indigo-400 text-sm mb-3 tracking-wider">
               👋 WELCOME TO MY PORTFOLIO
             </p>
@@ -27,7 +27,7 @@ const Hero = () => {
               using MongoDB, Express, React, Next.js and Node.js. Clean UI and
               smooth UX is my priority.
             </p>
-            <div className="mt-7 flex flex-wrap gap-4">
+            <div className="mt-7 flex flex-wrap gap-4 ">
               
 <a
               href="#"
@@ -44,15 +44,15 @@ const Hero = () => {
             </div>
 
             <div className="flex items-center gap-5 mt-6 text-xl text-gray-400">
-              <a href="#" className="hover:text-white transition">
+              <a href="https://github.com/abdul-korim-web" className="hover:text-white transition">
                 <FiGithub />
               </a>
-              <a href="#" className="hover:text-white transition">
+              <a href="https://www.linkedin.com/in/abdul-korim-webdeveloper" className="hover:text-white transition">
                 <FiLinkedin />
               </a>
             </div>
           </div>
-          <div className="flex justify-center order-1 md:order-2">
+          <div className="flex justify-center order-1 md:order-2 animate__animated animate__backInRight">
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/30 to-purple-600/30 blur-3xl rounded-full"></div>
 

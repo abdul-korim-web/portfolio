@@ -9,11 +9,11 @@ export default async function AllProjectsPage() {
     <section className="min-h-screen bg-[#0B0F19] text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
 
-        <h1 className="text-4xl font-bold text-center mb-10">
+        <h1 className="text-4xl font-bold text-center mb-10 animate__animated animate__backInLeft">
           All Projects
         </h1>
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 animate__animated animate__backInDown">
           {projects.map((project) => (
             <ProjectCard key={project?._id} project={project} />
           ))}

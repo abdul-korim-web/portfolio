@@ -1,6 +1,9 @@
 import ProjectCard from "@/components/clientUiComponent/projectCard";
 import getAllProject from "@/lib/data/getAllProject";
-
+export const metadata = {
+  title: "Projects",
+  description: "This is a Abdul Portfolio projects  section",
+};
 export default async function AllProjectsPage() {
   const data = await getAllProject();
   const projects = data?.allProjects || [];

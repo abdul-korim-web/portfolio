@@ -3,7 +3,10 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 import getSingleProject from "@/lib/data/getSingleProject";
-
+export const metadata = {
+  title: "project delelse",
+  description: "This is a Abdul Portfolio about  section",
+};
 export default async function ProjectDetailsPage({ params }) {
   const {id} = await params
   const project = await getSingleProject(id);

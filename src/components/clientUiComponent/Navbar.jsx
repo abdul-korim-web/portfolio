@@ -25,7 +25,7 @@ console.log('pathName', pathName)
       <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-[#0B0F19]/60 border-b  border-white/10">
         <div className="flex items-center justify-between px-6 py-5 h-16 max-w-7xl mx-auto">
           
-          <Link href="/home" className="text-xl font-bold tracking-tight animate__animated animate__backInLeft">
+          <Link href="/" className="text-xl font-bold tracking-tight animate__animated animate__backInLeft">
             <span className="text-white">Abdul</span>
             <span className="text-indigo-500">.dev</span>
           </Link>

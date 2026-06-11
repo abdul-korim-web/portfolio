@@ -30,7 +30,8 @@ const Hero = () => {
             <div className="mt-7 flex flex-wrap gap-4 ">
               
 <a
-              href="#"
+target="_blank"
+              href="https://drive.google.com/file/d/1uWxAYIvNfWKktRvbWqKQQ0gQD5EDJO-2/view?usp=sharing"
               className="px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 transition inline-block"
             >
               View Resume

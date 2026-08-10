@@ -7,9 +7,7 @@ import { FiMenu, FiX, FiHome, FiUser, FiCode, FiBriefcase, FiMail } from "react-
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-const active = false
-const pathName = usePathname()
-console.log('pathName', pathName)
+  const pathName = usePathname();
   const menu = [
     { id: "", label: "Home", icon: <FiHome /> },
     { id: "about", label: "About", icon: <FiUser /> },
@@ -75,7 +73,7 @@ console.log('pathName', pathName)
             {menu.map((item) => (
               <Link
                 key={item.id}
-                href={`${item.id}`}
+                href={`/${item.id}`}
                 onClick={() => setOpen(false)}
                 className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${
                    pathName == `/${item.id}`

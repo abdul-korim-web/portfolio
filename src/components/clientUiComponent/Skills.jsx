@@ -116,7 +116,7 @@ export default function SkillsSection() {
                 {category.skills.map((skill, index) => (
                   <div
                     key={index}
-                    className="p-5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition hover:scale-105 cursor-pointer"
+                    className="p-4 sm:p-5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 transition hover:scale-105 cursor-pointer"
                   >
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-3 text-lg font-medium">

@@ -9,7 +9,7 @@ export default function About() {
     <section className="min-h-screen flex items-center bg-[#0B0F19] text-white px-6 py-24">
       <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-14 items-center">
         <div className="relative animate__animated animate__bounceInLeft">
-          <div className="w-full h-[420px] rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-600/20 border border-white/10 backdrop-blur-xl flex items-center justify-center">
+          <div className="w-full h-[280px] sm:h-[350px] md:h-[420px] relative rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-600/20 border border-white/10 backdrop-blur-xl flex items-center justify-center">
             <Image
               src={aboutImage}
               alt="aboutImage"
@@ -17,7 +17,7 @@ export default function About() {
               fill
             />
           </div>
-          <div className="absolute -bottom-6 left-6 bg-white/5 border border-white/10 backdrop-blur-xl px-4 py-2 rounded-xl text-sm animate__animated animate__bounceInUp text-gray-300">
+          <div className="absolute -bottom-3 sm:-bottom-6 left-6 bg-white/5 border border-white/10 backdrop-blur-xl px-4 py-2 rounded-xl text-sm animate__animated animate__bounceInUp text-gray-300">
             🚀 Building Web Apps
           </div>
         </div>

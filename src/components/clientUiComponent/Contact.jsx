@@ -38,7 +38,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-10 ">
           <div className="space-y-6 animate__animated animate__tada">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-8">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-6 sm:p-8">
               <h3 className="text-2xl font-bold text-white mb-8">
                 Contact Information
               </h3>
@@ -116,7 +116,7 @@ const Contact = () => {
           </div>
 
 
-          <form className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-8 space-y-6 animate__animated animate__tada">
+          <form className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-3xl p-6 sm:p-8 space-y-6 animate__animated animate__tada">
             <div>
               <label className="text-sm text-gray-300 mb-2 block">
                 Your Name

@@ -7,7 +7,7 @@ import abdulKorimHeroImage from "@/assist/images/abdulKorim.jpg";
 const Hero = () => {
   return (
     <div>
-      <section className="md:min-h-screen flex items-center bg-[#0B0F19] text-white px-6 pt-20 mt-10 container ">
+      <section className="md:min-h-screen flex items-center bg-[#0B0F19] text-white px-6 pt-20 mt-10">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-10 items-center ">
           <div className="order-2 md:order-1 animate__animated animate__backInLeft">
             <p className="text-indigo-400 text-sm mb-3 tracking-wider">
@@ -54,7 +54,7 @@ target="_blank"
             </div>
           </div>
           <div className="flex justify-center order-1 md:order-2 animate__animated animate__backInRight">
-            <div className="relative w-72 h-72 md:w-96 md:h-96">
+            <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/30 to-purple-600/30 blur-3xl rounded-full"></div>
 
               <div className="relative w-full h-full border border-white/10 rounded-2xl bg-white/5 backdrop-blur-xl flex items-center justify-center">

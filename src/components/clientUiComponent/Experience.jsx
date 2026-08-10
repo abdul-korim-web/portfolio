@@ -43,9 +43,9 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 bg-gradient-to-b from-[#050816] to-black"
+      className="py-24 bg-gradient-to-b w-[95%] mx-auto from-[#050816] to-black "
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-6">
+      <div className="md:max-w-6xl mx-auto px-4 md:px-6">
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
